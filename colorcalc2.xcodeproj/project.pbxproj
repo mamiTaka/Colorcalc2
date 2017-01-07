@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C419C74B3678ABBD8EC26F8 /* Pods_colorcalc2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E197865B8EB5AB4EBB7F9B8E /* Pods_colorcalc2Tests.framework */; };
+		7FD83820C4F699B33D68B5FF /* Pods_colorcalc2_colorcalc2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361A591DE3383C46233E5BC8 /* Pods_colorcalc2_colorcalc2Tests.framework */; };
+		B48605DEB2D46A7C3DFDDC03 /* Pods_colorcalc2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE8DB613000C0F6F9697730 /* Pods_colorcalc2UITests.framework */; };
 		F8FED6CE1E20FE87008A4077 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FED6CD1E20FE87008A4077 /* AppDelegate.swift */; };
 		F8FED6D01E20FE87008A4077 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FED6CF1E20FE87008A4077 /* ViewController.swift */; };
 		F8FED6D31E20FE87008A4077 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8FED6D11E20FE87008A4077 /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		F8FED6D81E20FE88008A4077 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8FED6D61E20FE88008A4077 /* LaunchScreen.storyboard */; };
 		F8FED6E31E20FE88008A4077 /* colorcalc2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FED6E21E20FE88008A4077 /* colorcalc2Tests.swift */; };
 		F8FED6EE1E20FE88008A4077 /* colorcalc2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FED6ED1E20FE88008A4077 /* colorcalc2UITests.swift */; };
+		F9225ED60A6AEFE9A2048F72 /* Pods_colorcalc2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 376184CCC52632D07DE9711F /* Pods_colorcalc2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		361A591DE3383C46233E5BC8 /* Pods_colorcalc2_colorcalc2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_colorcalc2_colorcalc2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		376184CCC52632D07DE9711F /* Pods_colorcalc2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_colorcalc2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A80B08CEE5F4BA0E88996A /* Pods-colorcalc2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colorcalc2UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-colorcalc2UITests/Pods-colorcalc2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		62CE89E06EF152EA78079117 /* Pods-colorcalc2-colorcalc2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colorcalc2-colorcalc2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-colorcalc2-colorcalc2Tests/Pods-colorcalc2-colorcalc2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6473EED128D80B5BE4C648FE /* Pods-colorcalc2-colorcalc2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colorcalc2-colorcalc2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-colorcalc2-colorcalc2Tests/Pods-colorcalc2-colorcalc2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		656A50C2F19F63788D9D2942 /* Pods-colorcalc2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colorcalc2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-colorcalc2/Pods-colorcalc2.debug.xcconfig"; sourceTree = "<group>"; };
+		8DE8DB613000C0F6F9697730 /* Pods_colorcalc2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_colorcalc2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0EAF63D953B207E9B51943 /* Pods-colorcalc2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colorcalc2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-colorcalc2Tests/Pods-colorcalc2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C02F70D2F1CDCBD32296E4C2 /* Pods-colorcalc2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colorcalc2.release.xcconfig"; path = "Pods/Target Support Files/Pods-colorcalc2/Pods-colorcalc2.release.xcconfig"; sourceTree = "<group>"; };
+		CFBEE46A22B60EE408B438F5 /* Pods-colorcalc2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colorcalc2UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-colorcalc2UITests/Pods-colorcalc2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		E197865B8EB5AB4EBB7F9B8E /* Pods_colorcalc2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_colorcalc2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA75EDC5FDD5F498DB7424C4 /* Pods-colorcalc2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colorcalc2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-colorcalc2Tests/Pods-colorcalc2Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F8FED6CA1E20FE87008A4077 /* colorcalc2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = colorcalc2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8FED6CD1E20FE87008A4077 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8FED6CF1E20FE87008A4077 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +63,7 @@
 		F8FED6E91E20FE88008A4077 /* colorcalc2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = colorcalc2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8FED6ED1E20FE88008A4077 /* colorcalc2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorcalc2UITests.swift; sourceTree = "<group>"; };
 		F8FED6EF1E20FE88008A4077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8FED6FC1E2102B4008A4077 /* colorPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = colorPicker.h; path = ../colorPicker.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9225ED60A6AEFE9A2048F72 /* Pods_colorcalc2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C419C74B3678ABBD8EC26F8 /* Pods_colorcalc2Tests.framework in Frameworks */,
+				7FD83820C4F699B33D68B5FF /* Pods_colorcalc2_colorcalc2Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +88,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B48605DEB2D46A7C3DFDDC03 /* Pods_colorcalc2UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F7235E32561426835D9C490 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				376184CCC52632D07DE9711F /* Pods_colorcalc2.framework */,
+				E197865B8EB5AB4EBB7F9B8E /* Pods_colorcalc2Tests.framework */,
+				8DE8DB613000C0F6F9697730 /* Pods_colorcalc2UITests.framework */,
+				361A591DE3383C46233E5BC8 /* Pods_colorcalc2_colorcalc2Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0FE7A4087FC208911A3AD03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				656A50C2F19F63788D9D2942 /* Pods-colorcalc2.debug.xcconfig */,
+				C02F70D2F1CDCBD32296E4C2 /* Pods-colorcalc2.release.xcconfig */,
+				EA75EDC5FDD5F498DB7424C4 /* Pods-colorcalc2Tests.debug.xcconfig */,
+				AC0EAF63D953B207E9B51943 /* Pods-colorcalc2Tests.release.xcconfig */,
+				49A80B08CEE5F4BA0E88996A /* Pods-colorcalc2UITests.debug.xcconfig */,
+				CFBEE46A22B60EE408B438F5 /* Pods-colorcalc2UITests.release.xcconfig */,
+				6473EED128D80B5BE4C648FE /* Pods-colorcalc2-colorcalc2Tests.debug.xcconfig */,
+				62CE89E06EF152EA78079117 /* Pods-colorcalc2-colorcalc2Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F8FED6C11E20FE87008A4077 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +128,8 @@
 				F8FED6E11E20FE88008A4077 /* colorcalc2Tests */,
 				F8FED6EC1E20FE88008A4077 /* colorcalc2UITests */,
 				F8FED6CB1E20FE87008A4077 /* Products */,
+				F0FE7A4087FC208911A3AD03 /* Pods */,
+				6F7235E32561426835D9C490 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +146,7 @@
 		F8FED6CC1E20FE87008A4077 /* colorcalc2 */ = {
 			isa = PBXGroup;
 			children = (
+				F8FED6FC1E2102B4008A4077 /* colorPicker.h */,
 				F8FED6CD1E20FE87008A4077 /* AppDelegate.swift */,
 				F8FED6CF1E20FE87008A4077 /* ViewController.swift */,
 				F8FED6D11E20FE87008A4077 /* Main.storyboard */,
@@ -132,9 +182,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8FED6F21E20FE88008A4077 /* Build configuration list for PBXNativeTarget "colorcalc2" */;
 			buildPhases = (
+				D5A131E649810FF45E73546A /* [CP] Check Pods Manifest.lock */,
 				F8FED6C61E20FE87008A4077 /* Sources */,
 				F8FED6C71E20FE87008A4077 /* Frameworks */,
 				F8FED6C81E20FE87008A4077 /* Resources */,
+				C5AD65A88474A22B75F3290D /* [CP] Embed Pods Frameworks */,
+				EE478B65DB11B29D5413F22D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8FED6F51E20FE88008A4077 /* Build configuration list for PBXNativeTarget "colorcalc2Tests" */;
 			buildPhases = (
+				908A2341672318D91775FC59 /* [CP] Check Pods Manifest.lock */,
 				F8FED6DA1E20FE88008A4077 /* Sources */,
 				F8FED6DB1E20FE88008A4077 /* Frameworks */,
 				F8FED6DC1E20FE88008A4077 /* Resources */,
+				8E2AE3268D46AB5F34266B83 /* [CP] Embed Pods Frameworks */,
+				E022EA0477DDA93D2AA186D5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8FED6F81E20FE88008A4077 /* Build configuration list for PBXNativeTarget "colorcalc2UITests" */;
 			buildPhases = (
+				86D95ED44F3101022C0A8534 /* [CP] Check Pods Manifest.lock */,
 				F8FED6E51E20FE88008A4077 /* Sources */,
 				F8FED6E61E20FE88008A4077 /* Frameworks */,
 				F8FED6E71E20FE88008A4077 /* Resources */,
+				9BB2F2BEA1CB46B24E103C8B /* [CP] Embed Pods Frameworks */,
+				A79D83C579C6EBB875275600 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +312,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		86D95ED44F3101022C0A8534 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8E2AE3268D46AB5F34266B83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-colorcalc2-colorcalc2Tests/Pods-colorcalc2-colorcalc2Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		908A2341672318D91775FC59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9BB2F2BEA1CB46B24E103C8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-colorcalc2UITests/Pods-colorcalc2UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A79D83C579C6EBB875275600 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-colorcalc2UITests/Pods-colorcalc2UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5AD65A88474A22B75F3290D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-colorcalc2/Pods-colorcalc2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5A131E649810FF45E73546A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E022EA0477DDA93D2AA186D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-colorcalc2-colorcalc2Tests/Pods-colorcalc2-colorcalc2Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE478B65DB11B29D5413F22D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-colorcalc2/Pods-colorcalc2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F8FED6C61E20FE87008A4077 /* Sources */ = {
@@ -408,30 +605,37 @@
 		};
 		F8FED6F31E20FE88008A4077 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 656A50C2F19F63788D9D2942 /* Pods-colorcalc2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = colorcalc2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.docomo.colorcalc2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "colorcalc2-colorPicker.h";
 				SWIFT_VERSION = 3.0;
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "Pods/**";
 			};
 			name = Debug;
 		};
 		F8FED6F41E20FE88008A4077 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C02F70D2F1CDCBD32296E4C2 /* Pods-colorcalc2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = colorcalc2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.docomo.colorcalc2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "colorcalc2-colorPicker.h";
 				SWIFT_VERSION = 3.0;
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "Pods/**";
 			};
 			name = Release;
 		};
 		F8FED6F61E20FE88008A4077 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6473EED128D80B5BE4C648FE /* Pods-colorcalc2-colorcalc2Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -446,6 +650,7 @@
 		};
 		F8FED6F71E20FE88008A4077 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62CE89E06EF152EA78079117 /* Pods-colorcalc2-colorcalc2Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +665,7 @@
 		};
 		F8FED6F91E20FE88008A4077 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49A80B08CEE5F4BA0E88996A /* Pods-colorcalc2UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = colorcalc2UITests/Info.plist;
@@ -473,6 +679,7 @@
 		};
 		F8FED6FA1E20FE88008A4077 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFBEE46A22B60EE408B438F5 /* Pods-colorcalc2UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = colorcalc2UITests/Info.plist;
@@ -503,6 +710,7 @@
 				F8FED6F41E20FE88008A4077 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8FED6F51E20FE88008A4077 /* Build configuration list for PBXNativeTarget "colorcalc2Tests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +719,7 @@
 				F8FED6F71E20FE88008A4077 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8FED6F81E20FE88008A4077 /* Build configuration list for PBXNativeTarget "colorcalc2UITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +728,7 @@
 				F8FED6FA1E20FE88008A4077 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
