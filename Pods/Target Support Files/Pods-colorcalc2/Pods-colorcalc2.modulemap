@@ -1,0 +1,6 @@
+framework module Pods_colorcalc2 {
+  umbrella header "Pods-colorcalc2-umbrella.h"
+
+  export *
+  module * { export * }
+}

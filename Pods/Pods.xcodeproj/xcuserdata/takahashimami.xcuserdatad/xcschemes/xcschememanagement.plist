@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Color-Picker-for-iOS.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-colorcalc2-colorcalc2Tests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-colorcalc2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-colorcalc2UITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>3B25E1601C445A6A75E55543DB48D091</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>63FEE3CF6AE03E987F719297310885EF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BBACEFA15BC48EF8DDAA7258A0E57168</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DB3E7456C864BF9EC0D8D6F1214D856A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
