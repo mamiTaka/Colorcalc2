@@ -50,6 +50,7 @@
 		CFBEE46A22B60EE408B438F5 /* Pods-colorcalc2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colorcalc2UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-colorcalc2UITests/Pods-colorcalc2UITests.release.xcconfig"; sourceTree = "<group>"; };
 		E197865B8EB5AB4EBB7F9B8E /* Pods_colorcalc2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_colorcalc2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA75EDC5FDD5F498DB7424C4 /* Pods-colorcalc2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colorcalc2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-colorcalc2Tests/Pods-colorcalc2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F8C28D4F1E22895600269BAA /* colorcalc2-colorPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "colorcalc2-colorPicker.h"; sourceTree = "<group>"; };
 		F8FED6CA1E20FE87008A4077 /* colorcalc2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = colorcalc2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8FED6CD1E20FE87008A4077 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8FED6CF1E20FE87008A4077 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,7 +64,6 @@
 		F8FED6E91E20FE88008A4077 /* colorcalc2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = colorcalc2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8FED6ED1E20FE88008A4077 /* colorcalc2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorcalc2UITests.swift; sourceTree = "<group>"; };
 		F8FED6EF1E20FE88008A4077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8FED6FC1E2102B4008A4077 /* colorPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = colorPicker.h; path = ../colorPicker.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,8 +146,8 @@
 		F8FED6CC1E20FE87008A4077 /* colorcalc2 */ = {
 			isa = PBXGroup;
 			children = (
-				F8FED6FC1E2102B4008A4077 /* colorPicker.h */,
 				F8FED6CD1E20FE87008A4077 /* AppDelegate.swift */,
+				F8C28D4F1E22895600269BAA /* colorcalc2-colorPicker.h */,
 				F8FED6CF1E20FE87008A4077 /* ViewController.swift */,
 				F8FED6D11E20FE87008A4077 /* Main.storyboard */,
 				F8FED6D41E20FE88008A4077 /* Assets.xcassets */,
@@ -530,6 +530,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -579,6 +580,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -608,6 +610,7 @@
 			baseConfigurationReference = 656A50C2F19F63788D9D2942 /* Pods-colorcalc2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"HEADER_SEARCH_PATHS[arch=*]" = "";
 				INFOPLIST_FILE = colorcalc2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.docomo.colorcalc2;
